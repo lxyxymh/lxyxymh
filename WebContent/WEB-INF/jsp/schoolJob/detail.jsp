@@ -15,7 +15,7 @@
 	<div class="inside_wrap">
 			<div class="inside_con">
 				<div class="adr">
-					<a href="${ctx}/WEB-INF/jsp/login/index.jsp">首页</a>&nbsp;>&nbsp;求职招聘&nbsp;>&nbsp;
+					<a href="${ctx}/login/index.do">首页</a>&nbsp;>&nbsp;求职招聘&nbsp;>&nbsp;
 				</div>
 				<div class="inside_box">
 					<div class="ic_wrap fr">

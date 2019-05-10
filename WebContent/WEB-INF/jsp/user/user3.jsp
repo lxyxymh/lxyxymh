@@ -29,7 +29,7 @@
 <body>
 <form method="post" action="${ctx}/user/findByMap.do?type=3" id="listform">
   <div class="panel admin-panel">
-    <div class="panel-head"><strong class="icon-reorder">社团列表</strong></div>
+    <div class="panel-head"><strong class="icon-reorder">用户列表</strong></div>
     <div class="padding border-bottom">
       <ul class="search">
         <li>

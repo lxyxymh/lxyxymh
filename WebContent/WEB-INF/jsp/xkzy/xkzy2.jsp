@@ -15,7 +15,7 @@
 		<div class="inside_wrap">
 			<div class="inside_con">
 				<div class="adr">
-					<a href="index.html">首页</a>&nbsp;>&nbsp;学科资源
+					<a href="${ctx}/login/index.do">首页</a>&nbsp;>&nbsp;学科资源
 				</div>
 				<div class="inside_box">
 					<!-- <div class="sidemenu fl">

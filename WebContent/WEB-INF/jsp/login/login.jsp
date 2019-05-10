@@ -13,7 +13,7 @@
 
 <div id="header">
 	<div class="header_title">
-		<span class="title_con">校园门户网站管理系统</span>
+		<span class="title_con">信息与计算科学系网站管理系统</span>
 	</div>
 </div>
 
@@ -21,7 +21,7 @@
 	<center>
 		<div class="con">
 		<div class="con_title">
-			<span class="con_title_sp">欢迎登录校园门户网站管理系统</span>
+			<span class="con_title_sp">欢迎登录信息与计算科学系网站管理系统</span>
 		</div>
 		<div class="con_panel">
 		   <form action="${ctx}/login/toLogin.do" method="Post">
@@ -34,7 +34,7 @@
 			<div class="con_select">
 			<!-- type == 管理员 2 社团 3 教师 -->
 				<input type="radio" name="type" value="3" />教师
-				<input type="radio" name="type" value="2" />社团
+				<!-- <input type="radio" name="type" value="2" />社团 -->
 				<input type="radio" name="type" value="1" />管理员
 			</div>
 			<input type="submit" value="登    录" class="submit-btn"/>

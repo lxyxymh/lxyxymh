@@ -7,13 +7,13 @@
 </style>
 		<div class="header_wrap">
 			<div class="header">
-				<span class="wel_word fl">欢迎访问校园门户网站！</span>
+				<span class="wel_word fl">欢迎访问信息与计算科学系网站！</span>
 				<span class="corner fr">
 					<ul>
 					  <c:if test="${userId == null }">
-					      <li class="login_li"><a href="${ctx}/login/login.do" class="tc">登录</a></li>
+					      <li class="login_li"><a href="${ctx}/login/toLogin.do" class="tc">登录</a></li>
 					  </c:if>
-					  <c:if test="${userId != null }">
+					  <%-- <c:if test="${userId != null }">
 							  <li class="user_li nLi">
 									<a href="javascript:void(0);">欢迎您：${user.userName }</a>
 							  </li>
@@ -24,8 +24,8 @@
 							    <li class="user_li nLi">
 							   <a href="${ctx }/login/utu.do">退出</a>
 							   </li>
-					  </c:if>
-					</ul>
+					  </c:if> --%>
+					<%-- </ul>
 					<div class="clear"></div>
 				</span>
 				<div class="clear"></div>
@@ -63,12 +63,12 @@
 							</form>
 						</div>
 					</div>
-				</div>
+				</div> --%>
 			</div>
 		</div>
 		<!--nav start-->
 		<div class="nav_menu">
-			<a href="${ctx}/login/index.do" class="logo fl"><img src="" /><span style="font-size: 50px">校园门户网站</span></a>
+			<a href="${ctx}/login/index.do" class="logo fl"><img src="" /><span style="font-size: 50px">信息与计算科学系</span></a>
 			<div class="nav_list fr">
 				<ul id="nav" class="nav clearfix">
 					<li class="nLi"></li>

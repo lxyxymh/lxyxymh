@@ -15,7 +15,7 @@
 	<div class="inside_wrap">
 			<div class="inside_con">
 				<div class="adr">
-					<a href="${ctx}/login/index.jsp">首页</a>&nbsp;>&nbsp;通知公告&nbsp;>&nbsp;
+					<a href="${ctx}/login/index.do">首页</a>&nbsp;>&nbsp;通知公告&nbsp;>&nbsp;
 				</div>
 				<div class="inside_box">
 					<div class="ic_wrap fr">

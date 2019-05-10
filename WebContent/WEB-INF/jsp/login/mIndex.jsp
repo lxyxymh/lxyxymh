@@ -33,9 +33,9 @@
       <li><a href="${ctx}/role/findByObj.do" target="right"><span class="icon-caret-right"></span>角色管理</a></li>
        <li><a href="${ctx}/action/findByObj.do" target="right"><span class="icon-caret-right"></span>权限管理</a></li>
     <!--  private Integer type;// 1老师 2 社团3.用户 -->
-       <li><a href="${ctx}/user/findByMap.do?type=2" target="right"><span class="icon-caret-right"></span>社团管理</a></li>
+       <%-- <li><a href="${ctx}/user/findByMap.do?type=2" target="right"><span class="icon-caret-right"></span>社团管理</a></li> --%>
        <li><a href="${ctx}/user/findByMap.do?type=1" target="right"><span class="icon-caret-right"></span>老师管理</a></li>
-       <li><a href="${ctx}/user/findByMap.do?type=3" target="right"><span class="icon-caret-right"></span>用户管理</a></li>
+       <%-- <li><a href="${ctx}/user/findByMap.do?type=3" target="right"><span class="icon-caret-right"></span>用户管理</a></li> --%>
        <li><a href="${ctx}/notice/findByObj.do" target="right"><span class="icon-caret-right"></span>公告管理</a></li>
        <li><a href="${ctx}/news/findByObj.do" target="right"><span class="icon-caret-right"></span>新闻管理</a></li>
        <li><a href="${ctx}/schoolInfo/findByObj.do" target="right"><span class="icon-caret-right"></span>校园风采管理</a></li>
@@ -51,15 +51,15 @@
 	       <c:if test="${data.name == 'qxgl' }">
 	           <li><a href="${ctx}/action/findByObj.do" target="right"><span class="icon-caret-right"></span>权限管理</a></li>
 	       </c:if>
-	       <c:if test="${data.name == 'stgl' }">
+	       <%-- <c:if test="${data.name == 'stgl' }">
 	          <li><a href="${ctx}/user/findByMap.do?type=2" target="right"><span class="icon-caret-right"></span>社团管理</a></li>
-	       </c:if>
+	       </c:if> --%>
 	       <c:if test="${data.name == 'lsgl' }">
 	           <li><a href="${ctx}/user/findByMap.do?type=1" target="right"><span class="icon-caret-right"></span>老师管理</a></li>
 	       </c:if>
-	       <c:if test="${data.name == 'yhgl' }">
+	       <%-- <c:if test="${data.name == 'yhgl' }">
 	           <li><a href="${ctx}/user/findByMap.do?type=3" target="right"><span class="icon-caret-right"></span>用户管理</a></li>
-	       </c:if>
+	       </c:if> --%>
 	       
 	       
 	       
