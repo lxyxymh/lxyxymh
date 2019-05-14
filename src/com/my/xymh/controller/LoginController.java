@@ -119,7 +119,7 @@ public class LoginController extends BaseController{
 		if(type == null){
 			return "login/login";
 		}
-		//type == 管理员 2 社团 3 教师 4用户
+		//type == 1 管理员 3 教师 
 		session.removeAttribute("isManage");
 		session.removeAttribute("user");
 		session.removeAttribute("userId");

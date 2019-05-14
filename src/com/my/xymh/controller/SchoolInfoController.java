@@ -121,7 +121,8 @@ public class SchoolInfoController extends BaseController {
 		        //String path = request.getSession().getServletContext().getRealPath("/upload");  
 		        String fileName = file.getOriginalFilename();  
 		        System.out.println(path);  
-		        File targetFile = new File("D:/my/upload", fileName);  
+		        File targetFile = new File("D:/my/upload", fileName); 
+		        /*File targetFile = new File(request.getSession().getServletContext().getRealPath("/upload"), fileName);*/
 		        if(!targetFile.exists()){  
 		            targetFile.mkdirs();  
 		        }  
@@ -158,7 +159,7 @@ public class SchoolInfoController extends BaseController {
  		d4.setName("校园风采");
  		dtos.add(d4);
  		 */
- 		gzService.send(4,schoolInfo.getTitle());
+ 		/*gzService.send(4,schoolInfo.getTitle());*/
     	 return "redirect:/schoolInfo/findByObj.do";
 	}
 	
@@ -188,6 +189,7 @@ public class SchoolInfoController extends BaseController {
 		        String fileName = file.getOriginalFilename();  
 		        System.out.println(path);  
 		        File targetFile = new File("D:/my/upload", fileName);  
+		       /* File targetFile = new File(request.getSession().getServletContext().getRealPath("/") + "upload/", fileName);*/
 		        if(!targetFile.exists()){  
 		            targetFile.mkdirs();  
 		        }  
